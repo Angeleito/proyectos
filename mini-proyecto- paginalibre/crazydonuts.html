@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy donuts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="csshake.min.css">
+    <!-- or from surge.sh -->
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+</head>
+<body class="bg-gray-100 overflow-x-hidden">
+    <nav class="w-full h-20 md:h-24 bg-[#81DEFD] flex justify-between items-center px-10 relative">
+        <div>
+            <img src="images/Crazy donuts.jpg" alt="" class="w-20 md:w-24">
+        </div>
+
+        <div class="hidden md:flex gap-5 min-[1500px]:translate-x-36">
+            <h2 class="text-lg font-medium hover:cursor-pointer">Comprar donas</h2>
+            <h2 class="text-lg font-medium hover:cursor-pointer">Contactanos</h2>
+            <h2 class="text-lg font-medium hover:cursor-pointer">Historia</h2>
+        </div>
+
+        <div>
+            <img src="images/settings.png" alt="" class="w-7 hover:cursor-pointer hidden lg:flex min-[1500px]:translate-x-64">
+        </div>
+        
+        <input type="checkbox" name="menulateral" id="menulateral" class="hidden peer/menu">
+        <div>
+            <label for="menulateral">
+                <img src="images/menu-burger (4).png" alt="" class="w-6 hover:cursor-pointer md:hidden">
+            </label>
+        </div>
+        <aside class="w-32 h-80 bg-cyan-200 right-3 top-20 fixed translate-x-40 peer-checked/menu:translate-x-0 duration-500 peer-checked/menu:md:hidden rounded-3xl z-10 px-5 py-5 gap-10 flex flex-col items-center">
+            <h1 class="text-2xl font-bold">Menu Principal</h1>
+            <h2 class="text-lg font-medium hover:cursor-pointer hover:bg-cyan-300 w-28 flex justify-center rounded-md">Comprar</h2>
+            <h2 class="text-lg font-medium hover:cursor-pointer hover:bg-cyan-300 w-28 flex justify-center rounded-md">Contacto</h2>
+            <h2 class="text-lg font-medium hover:cursor-pointer hover:bg-cyan-300 w-28 flex justify-center rounded-md">Historia</h2>
+        </aside>
+    </nav>
+
+    <main class="relative w-full h-full flex flex-col items-center py-7 gap-5">
+        <section class="w-[90%] h-[1580px] md:h-[830px] 2xl:h-[470px] bg-zinc-200 rounded-3xl shadow-2xl">
+            <div class="w-full h-[50px] items-center px-5 py-1">
+                <h1 class="font-semibold text-3xl text-[#A11BCA] animate__animated animate__backInRight">Menu</h1>
+            </div>
+
+            <div class="w-full h-[1530px] md:h-[780px] 2xl:h-[420px] flex flex-wrap justify-center md:justify-around px-5 gap-5">
+                <img src="images/menu crazy donuts.jpg" alt="" class="w-[450px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[300px] min-[1600px]:w-[350px] h-[400px] hover:cursor-pointer hover:border-4" data-aos="fade-down-right">
+                <img src="images/muestra crazy donuts.jpg" alt="" class="w-[400px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[300px] min-[1600px]:w-[350px] h-[350px] md:h-[400px] hover:cursor-pointer hover:border-4">
+                <img src="images/muestra 2.jpg" alt="" class="w-[400px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[300px] min-[1600px]:w-[350px] h-[350px] md:h-[400px] hover:cursor-pointer hover:border-4">
+                <img src="images/muestra 3.jpg" alt="" class="w-[400px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[300px] min-[1600px]:w-[350px] h-[350px] md:h-[400px] hover:cursor-pointer hover:border-4">
+            </div>
+        </section>
+
+        <section class="w-[90%] h-[1550px] md:h-[800px] 2xl:h-[390px] bg-zinc-200 rounded-3xl shadow-2xl">
+            <div class="w-full h-[50px] items-center px-5 py-1">
+                <h1 class="font-semibold text-3xl text-[#A11BCA]">Preparacion</h1>
+            </div>
+
+            <div class="w-full h-[1500px] md:h-[750px] 2xl:h-[340px] flex flex-wrap justify-center px-5 gap-5">
+                <video src="images/decoracion.mp4" controls class="w-[400px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[310px] min-[1600px]:w-[350px] h-[300px] hover:cursor-pointer hover:border-4" data-aos="fade-left"></video>
+                <video src="images/decoracion 2.mp4" controls class="w-[400px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[310px] min-[1600px]:w-[350px] h-[300px] hover:cursor-pointer hover:border-4"></video>
+                <video src="images/decoracion 3.mp4" controls class="w-[400px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[310px] min-[1600px]:w-[350px] h-[300px] hover:cursor-pointer hover:border-4"></video>
+                <video src="images/empaquetado.mp4" controls class="w-[400px] md:w-[300px] lg:w-[420px] xl:w-[500px] 2xl:w-[310px] min-[1600px]:w-[350px] h-[300px] hover:cursor-pointer hover:border-4"></video>
+            </div>
+        </section>
+    </main>
+    <script>
+        AOS.init();
+    </script>
+
+    <footer class="w-full h-[200px] bg-slate-400 flex flex-col md:justify-center gap-3 px-7 py-7">
+        <div>
+            <h1 class="text-lg font-medium hover:cursor-pointer text-gray-500 shake-slow">Contactanos al <span class="underline">0424-542-53-03</span></h1>
+        </div>
+
+        <div class="w-[95%] flex flex-wrap gap-3 text-gray-500">
+            <p class="text-lg font-medium hover:cursor-pointer hover:underline">Cuenta</p>
+            <p class="text-lg font-medium hover:cursor-pointer hover:underline">Preguntas frecuentes</p>
+            <p class="text-lg font-medium hover:cursor-pointer hover:underline">Informacion corporativa</p>
+            <p class="text-lg font-medium hover:cursor-pointer hover:underline">Empleo</p>
+            <p class="text-lg font-medium hover:cursor-pointer hover:underline">Solo en Crazy Donuts</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

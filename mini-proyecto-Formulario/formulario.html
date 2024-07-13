@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="w-full h-screen bg-zinc-300 flex justify-center items-center">
+        <div class="bg-blue-50 w-[450px] sm:w-[600px] md:w-[710px] lg:w-[950px] xl:w-[1150px] h-[740px] md:h-[540px] shadow-md shadow-black rounded-md flex flex-wrap px-5 py-5 gap-3 fixed">
+            <div class="text-[#4B5563] font-semibold w-[360px] lg:w-[270px] h-[10px] lg:h-[500px]">
+                <h1 class="text-[22px]">Datos personales</h1>
+                <p>Por favor, rellene todos los campos</p>
+            </div>
+            <div class="w-[620px] md:w-[680px] lg:w-[620px] xl:w-[820px] flex flex-wrap">
+                <div class="w-[400px] sm:w-[550px] md:w-[650px] lg:w-[610px] xl:w-[810px] h-[70px]">
+                    <p>Nombre completo</p>
+                    <input type="text" class="w-[390px] sm:w-[540px] md:w-[640px] lg:w-[600px] xl:w-[810px] h-[40px] xl:h-[50px] bg-[#F9FAFB] border border-gray-400 rounded-md">
+                </div>
+                <div class="w-[400px] sm:w-[550px] md:w-[650px] lg:w-[610px] xl:w-[810px] h-[70px]">
+                    <p>Correo electronico</p>
+                    <input type="email" name="email" id="email" placeholder="email@domain.com"  class="w-[390px] sm:w-[540px] md:w-[640px] lg:w-[600px] xl:w-[810px] h-[40px] xl:h-[50px] bg-[#F9FAFB] border border-gray-400 rounded-md px-3">
+                </div>
+                <div class="w-[400px] sm:w-[550px] md:w-[350px] lg:w-[310px] xl:w-[510px] h-[70px]">
+                    <p>Direccion / Calle</p>
+                    <input type="text" class="w-[390px] sm:w-[540px] md:w-[340px] lg:w-[300px] xl:w-[500px] h-[40px] bg-[#F9FAFB] border border-gray-400 rounded-md">
+                </div>
+                <div class="w-[400px] sm:w-[550px] md:w-[290px] lg:w-[300px] h-[70px]">
+                    <p>Ciudad</p>
+                    <input type="text" class="w-[390px] sm:w-[540px] md:w-[290px] lg:w-[290px] xl:w-[300px] h-[40px] bg-[#F9FAFB] border border-gray-400 rounded-md">
+                </div>
+                <div class="w-[400px] sm:w-[550px] md:w-[270px] xl:w-[350px] h-[70px]">
+                    <p>Pais / region</p>
+                    <input type="text" placeholder="Pais" class="w-[390px] sm:w-[540px] md:w-[260px] xl:w-[340px] h-[40px] bg-[#F9FAFB] border border-gray-400 rounded-md px-3">
+                </div>
+                <div class="w-[400px] sm:w-[550px] md:w-[230px] xl:w-[330px] h-[70px]">
+                    <p>Estado / provincia</p>
+                    <input type="text" placeholder="Estado" class="w-[390px] sm:w-[540px] md:w-[220px] xl:w-[320px] h-[40px] bg-[#F9FAFB] border border-gray-400 rounded-md px-3">
+                </div>
+                <div class="w-[400px] sm:w-[550px] md:w-[150px] lg:w-[100px] xl:w-[130px] h-[70px]">
+                    <p>Codigo postal</p>
+                    <input type="text" class="w-[390px] sm:w-[540px] md:w-[140px] lg:w-[100px] xl:w-[130px] h-[40px] bg-[#F9FAFB] border border-gray-400 rounded-md px-3">
+                </div>
+                <div class="w-[350px] sm:w-[500px] md:w-[600px] lg:w-[580px] xl:w-[800px] h-[30px] md:h-[20px] lg:h-[20px] xl:h-[20px]">
+                    <input type="checkbox" name="recordar" id="recordar"> Recordar usuario?
+                </div>
+                <div>
+                    <input type="button" value="enviar" class="border w-[100px] h-[40px] flex items-center justify-center bg-blue-500 text-white font-medium rounded-xl hover:bg-blue-700 hover:cursor-pointer">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
